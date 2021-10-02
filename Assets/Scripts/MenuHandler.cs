@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-
 public class MenuHandler : MonoBehaviour
 {
     public InputField inputName;
