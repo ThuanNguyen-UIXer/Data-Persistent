@@ -18,12 +18,17 @@ public class MainManager : MonoBehaviour
     
     private bool m_GameOver = false;
 
+   
     
     // Start is called before the first frame update
     void Start()
     {
+  
+
         const float step = 0.6f;
         int perLine = Mathf.FloorToInt(4.0f / step);
+
+        
         
         int[] pointCountArray = new [] {1,1,2,2,5,5};
         for (int i = 0; i < LineCount; ++i)
@@ -73,4 +78,6 @@ public class MainManager : MonoBehaviour
         m_GameOver = true;
         GameOverText.SetActive(true);
     }
+
+   
 }
